@@ -1,6 +1,6 @@
-import { getProducts } from "./ProductProvider.js"
-import { getProductTypes } from "./ProductTypeProvider.js"
-import ProductList from "./ProductList.js"
+import { getProducts } from "./products/ProductProvider.js"
+import { getProductTypes } from "./products/ProductTypeProvider.js"
+import ProductList from "./products/ProductList.js"
 
 getProducts()
     .then(getProductTypes)
